@@ -1,0 +1,21 @@
+[user]
+	email = {{ .email }}
+	name = {{ .name }}
+[commit]
+	gpgSign = false
+[tag]
+	forceSignAnnotated = false
+[pull]
+	rebase = true
+[init]
+	defaultBranch = master
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	editor = code
+[alias]
+	# Show the user email for the current repository.
+	whoami = config user.email
