@@ -1,17 +1,32 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+# Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
+# GitHub command-line tool
 brew "gh"
+# Core application library for C
 brew "glib"
+# CLI wrapper for basic network utilities on macOS - ip command
 brew "iproute2mac"
+# Keep your Mac's application settings in sync
 brew "mackup"
+# Mac App Store command-line interface
 brew "mas"
+# Terminal-based visual file manager
 brew "midnight-commander"
+# Manage multiple Node.js versions
 brew "nvm"
+# Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
+# JavaScript package manager
 brew "yarn"
+# UI toolkit for building applications for mobile, web and desktop
 cask "flutter"
+# Open-source code editor
+cask "visual-studio-code"
+# Rust-based terminal
+cask "warp"
 mas "1Blocker", id: 1365531024
 mas "HP Smart", id: 1474276998
 mas "HTML Email Signature - Outlook", id: 1101267774
