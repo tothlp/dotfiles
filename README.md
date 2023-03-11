@@ -27,3 +27,15 @@ brew install chezmoi
 ```bash
 chezmoi init --apply tothlp
 ```
+
+Apply the config files
+
+```bash
+chezmoi -v apply
+```
+
+At last, install the packages from Brewfile.
+
+```bash
+brew bundle
+```
