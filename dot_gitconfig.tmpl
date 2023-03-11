@@ -16,6 +16,22 @@
 	required = true
 [core]
 	editor = code
+[gpg]
+	program = ""
 [alias]
 	# Show the user email for the current repository.
 	whoami = config user.email
+	amend = commit --amend
+	csicsa = log --oneline --decorate --graph --all
+	ci = commit
+	st = status
+	br = branch
+	co = checkout
+	df = diff
+	cp = cherry-pick
+	ri = rebase -i
+	rim = rebase -i origin/master
+	rc = rebase --continue
+	ra = rebase --abort
+	l = log --pretty=format:'%C(yellow)%h%Creset -%C(auto)%<(30,trunc)%d%Creset %<(50,trunc)%s %C(auto)(%cr) %C(bold cyan)[%an]%Creset' --abbrev-commit --date=relative
+	lg = !git l --graph
