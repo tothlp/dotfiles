@@ -1,9 +1,9 @@
 # tothlp's dotfiles
 :seedling: dotfiles, managed by chezmoi. :house:
 
-This repo holds some configuration files for my current setup, which are managed by chezmoi across multiple workstations.
+This repo holds some configuration files for my current setup, which are managed by chezmoi across multiple workstations and Codespaces.
 
-## :wrench: "Automated" Installation
+## :wrench: Automated Installation
 
 Install chezmoi first, and pull configs from this repo.
 
