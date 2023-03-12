@@ -17,11 +17,7 @@ Apply the configs. Note, that before applying the configs, it will run the init 
 chezmois apply
 ```
 
-Lastly, install all packages from Brewfile
-
-```bash
-brew bundle
-```
+After applying the configs, the [.chezmoiscripts/run_once_after_00_install-packages-from-brewfile.sh.tmpl](.chezmoiscripts/run_once_after_00_install-packages-from-brewfile.sh.tmpl) script runs `brew bundle`, and installs dependencies from `Brewfile`.
 
 ## :wrench: Manual Installation
 
