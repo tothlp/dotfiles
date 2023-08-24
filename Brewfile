@@ -5,6 +5,8 @@ tap "homebrew/core"
 
 brew "gh"
 brew "glib"
+brew "gradle"
+brew "htop"
 brew "iproute2mac"
 brew "mas"
 brew "midnight-commander"
