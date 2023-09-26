@@ -42,4 +42,3 @@ mas "Pages", id: 409201541
 mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
 mas "Unsplash Wallpapers", id: 1284863847
-mas "Xcode", id: 497799835
