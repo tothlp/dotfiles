@@ -78,7 +78,7 @@ chezmoi cd
 
 ## Additional resources
 
-[Official chezmoi repository](twpayne/chezmoi)
+[Official chezmoi repository](https://github.com/twpayne/chezmoi)
 
 [chezmoi site](https://www.chezmoi.io)
 
