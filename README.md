@@ -56,6 +56,30 @@ At last, install the packages from Brewfile.
 brew bundle
 ```
 
+## :sunny: Day-to-day usage
 
+Recreate Brewfile if needed
+
+```bash
+brew bundle dump --force
+```
+
+Add it to chezmoi, so Git can notice changes
+
+```bash
+chezmoi add Brewfile
+```
+
+After that, we can change into chezmoi's directory, and review changes, push to git, etc
+
+```bash
+chezmoi cd
+```
+
+## Additional resources
+
+[Official chezmoi repository](twpayne/chezmoi)
+
+[chezmoi site](https://www.chezmoi.io)
 
 
