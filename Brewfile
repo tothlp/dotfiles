@@ -1,10 +1,8 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "sdkman/tap"
-
-brew "gh"
 brew "glib"
+brew "gh"
 brew "gradle"
 brew "htop"
 brew "iproute2mac"
