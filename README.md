@@ -70,6 +70,19 @@ Add it to chezmoi, so Git can notice changes
 chezmoi add Brewfile
 ```
 
+We can also edit the chezmoi-managed files directly
+
+```bash
+chezmoi edit ~/.zshrc
+```
+
+See the diff, apply changes
+
+```bash
+chezmoi diff
+chezmoi apply -v
+```
+
 After that, we can change into chezmoi's directory, and review changes, push to git, etc
 
 ```bash
