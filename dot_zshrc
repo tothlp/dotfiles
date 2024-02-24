@@ -4,6 +4,7 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias ~="cd ~"
 alias reload="source ~/.zshrc"
+alias dev="cd ~/Developer"
 
 # Editor configuration
 export VISUAL="code --wait"
