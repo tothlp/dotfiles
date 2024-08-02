@@ -1,0 +1,3 @@
+# Always sourced. Place stuff here, which need to be exposed for external apps, too. Login shell and interactive shell will also source this.
+
+export SPRING_PROFILES_ACTIVE=dev
