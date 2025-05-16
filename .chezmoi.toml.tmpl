@@ -9,3 +9,6 @@ sourceDir = {{ .chezmoi.sourceDir | quote }}
 {{- else }}{{/* Interactive setup, so prompt for an email address */}}
     email = {{ promptString "email" | quote }}
 {{- end }}
+[data.work]
+    name = "Tóth László"
+    email = ""

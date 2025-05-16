@@ -2,6 +2,8 @@
 	email = {{ .email }}
 	name = {{ .name }}
 	signingKey = ""
+[includeIf "gitdir:~/Developer/Sagem/"]
+    path = ~/.gitconfig-work
 [commit]
 	gpgSign = false
 [tag]
