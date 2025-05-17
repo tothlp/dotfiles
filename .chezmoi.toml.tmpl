@@ -4,11 +4,10 @@ sourceDir = {{ .chezmoi.sourceDir | quote }}
 [data]
     name = "Tóth László"
     codespaces = {{ $codespaces }}
+    work.name = "Tóth László"
+    work.email = {{ promptString "work email" | quote }}
 {{- if $codespaces }}{{/* Codespaces dotfiles setup is non-interactive, so set an email address */}}
     email = "dev@tothlp.hu"
 {{- else }}{{/* Interactive setup, so prompt for an email address */}}
     email = {{ promptString "email" | quote }}
 {{- end }}
-[data.work]
-    name = "Tóth László"
-    email = ""
