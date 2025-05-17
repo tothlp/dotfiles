@@ -4,7 +4,9 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias ~="cd ~"
 alias reload="source ~/.zshrc"
+alias refreshenv="source ~/.zshrc"
 alias dev="cd ~/Developer"
+alias whatismyip="curl ifconfig.me"
 
 # Editor configuration
 export VISUAL="code --wait"
