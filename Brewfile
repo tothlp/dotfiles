@@ -6,6 +6,7 @@ brew "chezmoi"
 brew "gh"
 brew "htop"
 brew "iproute2mac"
+brew "libpq"
 brew "mas"
 brew "midnight-commander"
 brew "nvm"
@@ -16,9 +17,12 @@ brew "sdkman/tap/sdkman-cli"
 brew "varabyte/tap/kobweb"
 cask "arc"
 cask "bartender"
+cask "betterdisplay"
 cask "cleanmymac"
+cask "container"
+cask "dbeaver-community"
 cask "discord"
-cask "docker"
+cask "docker-desktop"
 cask "elmedia-player"
 cask "folx"
 cask "font-fira-code"
@@ -39,10 +43,13 @@ cask "tableplus"
 cask "visual-studio-code"
 cask "vlc"
 cask "warp"
+cask "winbox"
 mas "1Blocker", id: 1365531024
+mas "Messenger", id: 1480068668
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Parcel", id: 639968404
+mas "SocialFocus", id: 1661093205
 mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
 mas "Unsplash Wallpapers", id: 1284863847
