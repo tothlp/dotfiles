@@ -1,4 +1,8 @@
-Host github.com
+Host *
+  UseKeychain yes
+  AddKeysToAgent yes
+
+Host github.com, gitlab.com
   User git
   AddKeysToAgent yes
   UseKeychain yes
