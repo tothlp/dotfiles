@@ -5,19 +5,26 @@ This repo holds some configuration files for my current setup, which are managed
 
 ## :wrench: Automated Installation
 
+First of all, we need to install *git*, which is packed in Xcode command line tools.
+
+```bash
+sudo softwareupdate -i -a
+xcode-select --install
+```
+
 Install chezmoi first, and pull configs from this repo.
 
 ```bash
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply tothlp
 ```
 
-Apply the configs. Note, that before applying the configs, it will run the init scripts located in .chezmoiscripts folder. It will install Xcode command line tools, and homebrew for us. Afterwards, chezmois applies the configs.
+Apply the configs. Note, that before applying the configs, it will run the init scripts located in .chezmoiscripts folder. It will install homebrew for us, aterwards applies the configs.
 
 ```bash
 chezmois apply
 ```
 
-After applying the configs, the [.chezmoiscripts/run_once_after_00_install-packages-from-brewfile.sh.tmpl](.chezmoiscripts/run_once_after_00_install-packages-from-brewfile.sh.tmpl) script runs `brew bundle`, and installs dependencies from `Brewfile`.
+After applying the configs, the [.chezmoiscripts/run_once_after_01_install-packages-from-brewfile.sh.tmpl](.chezmoiscripts/run_once_after_01_install-packages-from-brewfile.sh.tmpl) script runs `brew bundle`, and installs dependencies from `Brewfile`.
 
 ## :wrench: Manual Installation
 
