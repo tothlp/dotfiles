@@ -1,5 +1,3 @@
-tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 tap "sdkman/tap"
 tap "varabyte/tap"
 brew "chezmoi"
